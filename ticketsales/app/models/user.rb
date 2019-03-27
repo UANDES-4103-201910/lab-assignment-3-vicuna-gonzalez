@@ -3,14 +3,15 @@ class User < ActiveRecord::Base
   has_many :phones, dependent: :destroy
   has_many :orders, dependent: :destroy
 
+
   def most_expensive_ticket_bought()
-    orders= Order.find_by_user_id(id)
+    orders=Order.where(user_id: id)
     tickets=[]
-    orders.all.each do |order|
-      tickets.append(Ticket.find(order.id))
+    orders.each do |order|
+      tickets.append(Ticket.find(order.ticket_id))
     end
     max= 0
-    tickets.all.each do |ticket|
+    tickets.each do |ticket|
       if max < ticket.price
         max = ticket.price
       end
