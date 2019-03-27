@@ -9,5 +9,5 @@ class Event < ActiveRecord::Base
   def highest_revenue
 
   end
-  
+
 end
