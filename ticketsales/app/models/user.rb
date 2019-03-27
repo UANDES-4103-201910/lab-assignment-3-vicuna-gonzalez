@@ -4,6 +4,10 @@ class User < ActiveRecord::Base
   has_many :orders, dependent: :destroy
 
 
+  def orders_between(date1,date2)
+    orders=Order.where("created_at < ? AND created_at > ? AND user_id== ?", DateTime.parse(date1), DateTime.parse(date2), id)
+    orders
+  end
   def most_expensive_ticket_bought()
     orders=Order.where(user_id: id)
     tickets=[]
@@ -19,11 +23,10 @@ class User < ActiveRecord::Base
     max
   end
 
-  def most_expensive_ticket_bought_between(date1,date2)
-    orders=Order.where(user_id: id)
-    orders2=orders.where(created_at<date2).where(created_at>date1)
+  def most_expensive_ticket_bought_between(min_date,max_date)
+    orders=Order.where("created_at < ? AND created_at > ? AND user_id== ?", DateTime.parse(max_date), DateTime.parse(min_date), id)
     tickets=[]
-    orders2.each do |order|
+    orders.each do |order|
       tickets.append(Ticket.find(order.ticket_id))
     end
     max= 0
