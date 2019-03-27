@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4135d40-19e3-45ee-a453-315d5cdf877b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/email.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/email.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/event.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/event.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/eventvenue.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/eventvenue.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/order.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/order.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/phone.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/phone.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/ticket.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/ticket.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190327125209_create_events.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20190327125209_create_events.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190327125332_create_tickets.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20190327125332_create_tickets.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190327125409_create_orders.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20190327125409_create_orders.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190327125515_create_phones.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20190327125515_create_phones.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20190327125531_create_emails.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/migrate/20190327125531_create_emails.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -31,11 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -49,7 +46,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/app/models/phone.rb" />
         <option value="$PROJECT_DIR$/app/models/email.rb" />
         <option value="$PROJECT_DIR$/app/models/eventvenue.rb" />
@@ -62,6 +58,7 @@
         <option value="$PROJECT_DIR$/db/migrate/20190327125409_create_orders.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190327125515_create_phones.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20190327125531_create_emails.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
       </list>
     </option>
   </component>
@@ -239,12 +236,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553688337692</updated>
-      <workItem from="1553688341185" duration="4508000" />
+      <workItem from="1553688341185" duration="5764000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4508000" />
+    <option name="totallyTimeSpent" value="5764000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
@@ -287,13 +284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="39" lean-forward="true" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -374,6 +364,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
