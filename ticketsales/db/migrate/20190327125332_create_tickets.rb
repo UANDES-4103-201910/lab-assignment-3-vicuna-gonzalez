@@ -3,7 +3,7 @@ class CreateTickets < ActiveRecord::Migration
     create_table :tickets do |t|
       t.integer :price
       t.string :category
-      t.integer :event_id
+      t.references :event
 
       t.timestamps null: false
     end
