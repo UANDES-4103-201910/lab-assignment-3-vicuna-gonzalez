@@ -1,4 +1,4 @@
 class Order < ActiveRecord::Base
-  belongs_to :ticket
+  has_one :ticket
   belongs_to :user
 end

@@ -1,6 +1,6 @@
 class Event < ActiveRecord::Base
   has_many :tickets
-  belongs_to :eventvenue
+  has_one :eventvenue
 
   def most_tickets_sold
     max=0
