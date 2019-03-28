@@ -42,7 +42,7 @@ t7 = Ticket.create(price:1000,category:"Cancha",event:e3)
 t8 = Ticket.create(price:8000,category:"Platea Alta",event:e3)
 t9 = Ticket.create(price:2000,category:"Platea baja",event:e3)
 #Orders
-o1 = Order.create(amount:2,user:u1,ticket:t1)
+o1 = Order.create(amount:3,user:u1,ticket:t1)
 o2 = Order.create(amount:3,user:u1,ticket:t4)
 o3 = Order.create(amount:1,user:u1,ticket:t7)
 o4 = Order.create(amount:1,user:u2,ticket:t2)
